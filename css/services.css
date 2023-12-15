@@ -1,0 +1,30 @@
+.services-section {
+    background-color: #f7f7f7; /* O el color de fondo que desees */
+}
+
+.services-section .container {
+    max-width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.services-section .card {
+    margin: 0;
+    border-radius: 0;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.services-section .card .card-body {
+    padding: 20px; /* Ajusta el padding según lo necesites */
+}
+
+.col-md-4 {
+    animation-delay: 0.3s;
+}
+
+.services-section .card { 
+    cursor: pointer;
+    border: none;
+    border-radius: 16px; 
+}

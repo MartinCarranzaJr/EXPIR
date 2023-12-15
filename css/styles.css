@@ -1,0 +1,25 @@
+/* Estilos generales para la navbar */
+.navbar {
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Sombra ligera para darle profundidad */
+}
+
+.navbar .container-fluid {
+    padding-left: 2rem; /* Espaciado izquierdo */
+    padding-right: 2rem; /* Espaciado derecho */
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link {
+    color: #333; /* Color oscuro para el texto */
+    font-size: 20px; /* Tamaño de fuente */
+    font-weight: 500; /* Peso de fuente */
+}
+
+.container-fluid {
+    max-width: 80%; /* o cualquier otro valor que prefieras */
+    margin: 0 auto; /* esto centra el contenedor en la pantalla */
+}
+  
+.front {
+    background: linear-gradient(45deg, white, azure, lightgreen, azure, white);
+}
